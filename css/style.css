@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background:#000;
+}
+#container {
+  width: 100%;
+  height: 100%;
+}  
+.button {  
+  display: block;
+  margin:0 auto ; 
+  padding: 10px;  
+  background-color: #007BFF; /* 蓝色背景 */  
+  color: white; /* 白色文本 */  
+  text-align: center; /* 文本居中 */  
+  text-decoration: none; /* 无下划线 */  
+  border: none; /* 无边框 */  
+  cursor: pointer; /* 鼠标悬停时显示手形光标 */  
+  transition: background-color 0.3s ease; /* 背景色过渡效果 */  
+}  
+
+.button:hover {  
+  background-color: #0056b3; /* 鼠标悬停时的背景色 */  
+}
