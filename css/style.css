@@ -15,7 +15,7 @@ html, body {
 .button {  
   display: block;
   margin:0 auto ; 
-  padding: 10px;  
+  padding: 40px;  
   background-color: #007BFF; /* 蓝色背景 */  
   color: white; /* 白色文本 */  
   text-align: center; /* 文本居中 */  
